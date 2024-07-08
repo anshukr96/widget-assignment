@@ -1,0 +1,71 @@
+.engagement-dashboard {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.engagement-header {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.engagement-stats {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  margin-left: 20px;
+  text-align: right;
+}
+
+.stat-value {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #888;
+}
+
+.engagement-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  border-bottom: 1px solid #333;
+}
+
+.engagement-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.bar {
+  width: 6px;
+  margin: 1px;
+  border-radius: 6px;
+}
+
+.bar-1 {
+  background-color: #b7bcc5;
+}
+.bar-2 {
+  background-color: #b7bcc5;
+}
+.bar-3 {
+  background-color: #ffffff;
+}
+
+.day-label {
+  font-size: 10px;
+  margin-top: 5px;
+  color: #888;
+}
